@@ -1,5 +1,5 @@
 # sync rom
-repo init --depth=1 --no-repo-verify -u https://github.com/PixelExtended/manifest.git -b trece -g default,-mips,-darwin,-notdefault
+repo init --depth=1 --no-repo-verify -u https://github.com/PixelExtended/manifest.git -b thunder -g default,-mips,-darwin,-notdefault
 git clone https://github.com/zaid2sultan/local_manifests.git --depth 1 -b pex13-lav .repo/local_manifests
 repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j8
 
